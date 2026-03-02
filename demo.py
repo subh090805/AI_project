@@ -25,7 +25,7 @@ st.markdown("""
 <div class="hero">
     <div style="display:flex;align-items:center;gap:1.2rem;margin-bottom:0.3rem">
         <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/320px-F1.svg.png"
+            src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg"
             alt="F1 Logo"
             style="height:42px;width:auto;object-fit:contain;filter:drop-shadow(0 0 4px rgba(225,6,0,0.5))"
         />
@@ -433,3 +433,14 @@ with right_col:
                 <div class="ov-pct">{pct}% of entries</div>
             </div>"""
         iframe(f'<div class="ov-wrap">{ov}</div>', 155)
+# 
+# ───────────────────────────────────────────────────────────────────────────────
+# sidebar disclaimer
+with st.sidebar:
+    st.markdown('---')
+    st.caption('🚀 **Disclaimer**')
+    st.caption(
+        'This is an unofficial fan project created for educational and portfolio purposes. '
+        'All F1 logos, names, and trademarks are the property of their respective owners (Formula One Management/Liberty Media). '
+        'Data is sourced from the Kaggle datasets.'
+    )
