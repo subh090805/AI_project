@@ -27,7 +27,7 @@ st.markdown("""
         <img
             src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg"
             alt="F1 Logo"
-            style="height:42px;width:auto;object-fit:contain;filter:drop-shadow(0 0 4px rgba(225,6,0,0.5))"
+            style="height:30px;width:auto;object-fit:contain;filter:drop-shadow(0 0 4px rgba(225,6,0,0.5))"
         />
         <h1 style="margin:0">RACE FINISH <span>PREDICTOR</span></h1>
     </div>
