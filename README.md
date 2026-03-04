@@ -3,7 +3,7 @@
 A simple tool to estimate a driver's final race position based on their team and grid start.
 
 ## 🔗 Live App
-**[f1-finish-predictor.streamlit.app](https://f1-finish-predictor.streamlit.app/)**
+**[f1-finishposition-predictor.streamlit.app](https://f1-finishposition-predictor.streamlit.app/))**
 
 ---
 
